@@ -93,6 +93,7 @@ export default function Page() {
 
       <section className="about" id="escritorio">
         <div className="aboutVisual reveal" aria-hidden="true">
+          <img src="/office.jpg" alt="" loading="lazy" decoding="async" />
           <div className="visualBlock" />
           <div className="stamp">{site.monogram}<small>PARAUAPEBAS · PA</small></div>
         </div>

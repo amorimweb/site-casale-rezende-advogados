@@ -53,8 +53,9 @@ nav a{opacity:.85}
 .areaGrid article>span{position:absolute;right:24px;bottom:24px;color:var(--accent)}
 
 .about{display:grid;grid-template-columns:.9fr 1.1fr;min-height:760px}
-.aboutVisual{position:relative;background:var(--soft);min-height:600px}
-.visualBlock{position:absolute;inset:0;background:linear-gradient(135deg,var(--ink) 0%,var(--accent2) 100%)}
+.aboutVisual{position:relative;background:var(--soft);min-height:600px;overflow:hidden}
+.aboutVisual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.visualBlock{position:absolute;inset:0;background:linear-gradient(0deg,var(--ink) 0%,transparent 55%);opacity:.55}
 .stamp{position:absolute;right:-60px;bottom:60px;width:140px;height:140px;background:var(--accent);color:var(--ink);border-radius:50%;display:grid;place-items:center;font-family:var(--font);font-size:32px;z-index:2}
 .stamp small{display:block;font:8px 'DM Sans';letter-spacing:.14em;margin-top:-30px}
 .aboutCopy{padding:11vw 8vw;display:flex;flex-direction:column;justify-content:center}
